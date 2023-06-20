@@ -3,8 +3,6 @@ import { Inter } from 'next/font/google';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai' ;
 import { useState } from "react";
-import mahdev from "../public/portfolio1.jpg";
-import Image from "next/image";
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -39,7 +37,7 @@ export default function Home() {
            </ul>      
           </nav>
           <div className=" text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-white md:text-3xl">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-white md:text-3xl cursor-pointer hover:[#52c1b4]">
               Mahlet Demeke 
               </h2>
             <h3 className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
