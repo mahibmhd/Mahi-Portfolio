@@ -53,7 +53,7 @@ export default function Home() {
 
 
               <AiFillTwitterCircle className=" hover:text-gray-900 cursor-pointer" onClick={() => window.open("https://twitter.com/MahletDemeke6")} />
-              <AiFillLinkedin className="hover:text-white cursor-pointer" onClick={() => window.open(" ")} />
+              <AiFillLinkedin className="hover:text-white cursor-pointer" onClick={() => window.open("https://linkedin.com/in/mahlet-demeke-271ab7230")} />
             </div>
             <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden mt-20 ">
               {/* <Image src={mahdev} width={350} height={200} /> */}
