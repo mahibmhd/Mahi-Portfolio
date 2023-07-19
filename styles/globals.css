@@ -22,3 +22,35 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-template-areas:
+    "a a b"
+    "a a c"
+    "a a c";
+}
+
+.box {
+  background-color: #ddd;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+.box1 {
+  grid-area: a;
+}
+
+.box2 {
+  grid-area: b;
+  margin-top: -50px;
+  z-index: 1;
+}
+
+.box3 {
+  grid-area: c;
+  margin-top: -50px;
+  z-index: 1;
+}
