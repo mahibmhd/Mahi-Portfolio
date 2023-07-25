@@ -5,6 +5,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/a
 import { useState } from "react";
 import { Container } from "postcss";
 import mahdev from "public/mahdev.png";
+import { useSpring } from 'react-spring';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -53,7 +54,7 @@ export default function Home() {
               <AiFillLinkedin className="hover:text-white cursor-pointer" onClick={() => window.open("https://linkedin.com/in/mahlet-demeke-271ab7230")} />
             </div>
             <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden mt-20 ">
-              {/* <Image src={mahdev} width={350} height={200} /> */}
+               {/* <img src={mahdev.src} width={350} height={200}  />  */}
               {/* <Image 
           src={mahdev}
           style={{
@@ -61,6 +62,13 @@ export default function Home() {
             layout:"fill"
           }}
           /> */}
+           <img src={mahdev.src}
+           width={350}
+           height={200}
+           style={{
+            objectFit:"cover",
+            layout:"fill"
+           }} />
            
             </div>
           </div>
@@ -80,8 +88,8 @@ export default function Home() {
             </p>
         
             <div>
-      <a href="/public/documents/Mahi's_CV.pdf" download className="bg-teal-700 text-white py-2 px-4 rounded">
-        Download CV
+      <a href="/public/documents/Mahi's_CV.pdf" download className=" flex-initial bg-teal-700 text-white hover:text-gray-300 py-2 px-4 rounded">
+        Download Resume
       </a>
     </div>
           </div>
@@ -108,8 +116,8 @@ export default function Home() {
                 reality.
               </p>
               <h4 className="py-4 text-teal-600"> Languages I Use</h4>
-              <p className="text-gray-800 py-1">JavaScript</p>
-              <p className="text-gray-800 py-1">Spring Boot</p>
+              <p className="text-gray-800 py-1">JavaScript, ReactTailwind</p>
+              <p className="text-gray-800 py-1">NodeJs, Spring Boot</p>
               <p className="text-gray-800 py-1">C#</p>
             </div>
             <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-white flex-1">
