@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { useState } from "react";
-import { Container } from 'postcss';
-
+import { Container } from "postcss";
+import mahdev from "public/mahdev.png";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,9 +49,6 @@ export default function Home() {
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillGithub className=" hover:text-gray-900 cursor-pointer" onClick={() => window.open("https://github.com/mahibmhd", "blank")} />
-
-
-
               <AiFillTwitterCircle className=" hover:text-gray-900 cursor-pointer" onClick={() => window.open("https://twitter.com/MahletDemeke6")} />
               <AiFillLinkedin className="hover:text-white cursor-pointer" onClick={() => window.open("https://linkedin.com/in/mahlet-demeke-271ab7230")} />
             </div>
@@ -63,11 +60,11 @@ export default function Home() {
             objectFit:"cover" ,
             layout:"fill"
           }}
-          />  */}
+          /> */}
+           
             </div>
           </div>
           <div>
-
           </div>
         </section>
         <section>
@@ -81,14 +78,16 @@ export default function Home() {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
+        
+            <div>
+      <a href="/public/documents/Mahi's_CV.pdf" download className="bg-teal-700 text-white py-2 px-4 rounded">
+        Download CV
+      </a>
+    </div>
           </div>
           <div className="lg:flex gap-20">
             <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <h3 className="text-lg font-bold pt-8 pb-2  ">
+              <h3 className="text-lg font-bold pt-8 pb-2 text-blue-900 ">
                 Beautiful Designs
               </h3>
               <p className="py-2">
@@ -96,30 +95,31 @@ export default function Home() {
                 design theory.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 justify-self-start py-1">Figma</p>
+              <p className="text-gray-800 py-1">Adobe Creative</p>
+              <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 justify-self-start py-1">Canva</p>
             </div>
             <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <h3 className="text-lg font-bold pt-8 pb-2 ">
-                Code your dream project
+              <h3 className="text-lg font-bold pt-8 pb-2 text-blue-900 ">
+                Code your dream Project
               </h3>
               <p className="py-2">
                 Do you have an idea for your next great website? Let's make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
+              <h4 className="py-4 text-teal-600"> Languages I Use</h4>
+              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">Spring Boot</p>
+              <p className="text-gray-800 py-1">C#</p>
             </div>
             <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <h3 className="text-lg font-bold pt-8 pb-2 ">Consulting</h3>
+              <h3 className="text-lg font-bold pt-8 pb-2  text-blue-900">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
             </div>
           </div>
-
         </section>
         <section className="py-40">
           <div>
@@ -130,11 +130,11 @@ export default function Home() {
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 px-60 py-14-10 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
+              for both business and consumer use. I offer from a wide range of services, including brand design,
               programming and teaching.
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-blue-400">
+            I offer from a wide range of services, including brand design, programming and teaching.
             </p>
             <p className=" text-center leading-8 dark:text-gray-200 pt-36 font-mono text-lg mb-10">
               "Copyright ©2023 All rights reserved | This Website is made by Mahlet Demeke "
