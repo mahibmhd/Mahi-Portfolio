@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Container } from "postcss";
 import mahdev from "public/mahdev.png";
 import { useSpring } from 'react-spring';
+import DownloadLink from '@/components/Download';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -62,13 +63,13 @@ export default function Home() {
             layout:"fill"
           }}
           /> */}
-           <img src={mahdev.src}
+           {/* <img src={mahdev.src}
            width={350}
            height={200}
            style={{
             objectFit:"cover",
             layout:"fill"
-           }} />
+           }} /> */}
            
             </div>
           </div>
@@ -86,12 +87,20 @@ export default function Home() {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-        
+          <div>
+          <DownloadLink> Download Resume</DownloadLink>
+          </div>
+           
+
+
+{/*         
             <div>
       <a href="/public/documents/Mahi's_CV.pdf" download className=" flex-initial bg-teal-700 text-white hover:text-gray-300 py-2 px-4 rounded">
         Download Resume
       </a>
-    </div>
+    </div> */}
+
+
           </div>
           <div className="lg:flex gap-20">
             <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1">
