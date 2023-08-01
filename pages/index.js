@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Container } from "postcss";
 import mahdev from "public/mahdev.png";
 import { useSpring } from 'react-spring';
-import DownloadLink from '@/components/Download';
+import DownloadLink from '/components/Download';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -87,19 +87,17 @@ export default function Home() {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-          <div>
+          {/* <div>
           <DownloadLink> Download Resume</DownloadLink>
-          </div>
+          </div> */}
            
 
 
-{/*         
-            <div>
-      <a href="/public/documents/Mahi's_CV.pdf" download className=" flex-initial bg-teal-700 text-white hover:text-gray-300 py-2 px-4 rounded">
+        
+        
+      <a href="../public/documents/Mahi's_CV.pdf" download className=" flex-initial bg-teal-700 text-white hover:text-gray-300 py-2 px-4 rounded">
         Download Resume
       </a>
-    </div> */}
-
 
           </div>
           <div className="lg:flex gap-20">
