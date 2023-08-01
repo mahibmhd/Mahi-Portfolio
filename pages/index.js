@@ -50,7 +50,7 @@ export default function Home() {
               Freelancer providing services for programming and design content needs. Join me down below and let's get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillGithub className=" hover:text-gray-900 cursor-pointer" onClick={() => window.open("https://github.com/mahibmhd", "blank")} />
+              <AiFillGithub className=" hover:text-gray-900 cursor-pointer" onClick={() => window.open("https://github.com/mahibmhd")} />
               <AiFillTwitterCircle className=" hover:text-gray-900 cursor-pointer" onClick={() => window.open("https://twitter.com/MahletDemeke6")} />
               <AiFillLinkedin className="hover:text-white cursor-pointer" onClick={() => window.open("https://linkedin.com/in/mahlet-demeke-271ab7230")} />
             </div>
@@ -148,7 +148,7 @@ export default function Home() {
               for both business and consumer use. I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-blue-400">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-blue-300 ">
             I offer from a wide range of services, including brand design, programming and teaching.
             </p>
             <p className=" text-center leading-8 dark:text-gray-200 pt-36 font-mono text-lg mb-10">
