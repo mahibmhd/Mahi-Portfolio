@@ -21,6 +21,6 @@ Here are some of the key projects I have worked on:
 Unfortunately, due to the confidentiality of certain projects, I am unable to share the code publicly.
 
 ## Get in Touch
-📫 Feel free to reach out to me via email at [mahletdemeke0791@gmail.com] or connect with me on LinkedIn (www.linkedin.com/in/mahlet-demeke-271ab7230) to discuss opportunities, collaborations, or just to say hi!
+📫 Feel free to reach out to me via email at mahletdemeke0791@gmail.com or connect with me on LinkedIn www.linkedin.com/in/mahlet-demeke-271ab7230 to discuss opportunities, collaborations, or just to say hi!
 
 Let's connect and build amazing things together! 🚀
